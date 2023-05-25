@@ -1,0 +1,29 @@
+/************************** 
+    RESPONSIVE
+**************************/
+
+/* TABLET */
+
+@media  and (max-width:1100px) {
+    
+
+}
+
+
+/* MOBILE */
+
+@media  and (max-width:700px) {
+    
+
+}
+
+
+/* MOBILE S */
+
+@media screen and (max-width:600px) {
+    
+    .side-nav-bar{
+        width: 70px; 
+    }
+
+}

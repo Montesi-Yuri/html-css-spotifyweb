@@ -1,11 +1,55 @@
-/* 
-GENERAL
-*/
+/************************** 
+    GENERAL
+**************************/
 
 .container{
     width: 100%;
     margin: 0 auto;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/************************** 
+    UTILITY
+**************************/
+
+.row{
+    display: flex;
+}
+
+
+/************************** 
+    MAIN
+**************************/
+
+main{
+    background-color: #141922;
+    height: calc(100vh - 100px);
+}
+
+.side-nav-bar{
+    background-color: black;
+    width: 200px;
+    height: calc(100vh - 100px);
+}
+
+.banner{
+    
+}
+
+/************************** 
+    FOOTER
+**************************/
+
+.dashboard{
+    width: 100vw;
+    height: 100px;
+    background-color: #282828;
+}
+
+
 
 
 
