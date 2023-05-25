@@ -16,6 +16,10 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /************************** 
     UTILITY
@@ -80,8 +84,19 @@ main{
 
 /* BANNER */
 
+.button{
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 2em;
+    padding: 12px 32px;
+    line-height: 4em;
+    list-style: none;
+}
 
-
+.banner{
+    text-align: end;
+}
 
 
 
@@ -94,9 +109,25 @@ main{
     width: 100vw;
     height: 100px;
     background-color: #282828;
+    justify-content: space-between;
 }
 
+.dashboard .left-interactions{
+    line-height: 100px;
+}
 
+.dashboard .right-interactions{
+    line-height: 100px;
+}
 
+.middle-interactions{
+    flex-wrap: wrap;
+}
+
+.middle-interactions > *{
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
 
 

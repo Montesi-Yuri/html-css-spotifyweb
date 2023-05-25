@@ -6,3 +6,8 @@ DEBUG
     background-color: lightcyan;
     border: 1px dashed red;
 }
+
+.debug .dashboard > div div{
+    background-color: lightcyan;
+    border: 1px dashed red;
+}
