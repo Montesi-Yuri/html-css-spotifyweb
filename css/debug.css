@@ -1,3 +1,8 @@
 /* 
 DEBUG
 */
+
+.debug .side-nav-bar .container *{
+    background-color: lightcyan;
+    border: 1px dashed red;
+}
