@@ -238,6 +238,7 @@ main{
     border-radius: 50%;
  }
 
+
 /************************** 
     FOOTER
 **************************/
@@ -258,10 +259,6 @@ body > footer{
     justify-content: space-between;
 }
 
-.dashboard .left-interactions{
-    line-height: 100px;
-}
-
 .dashboard .right-interactions{
     line-height: 100px;
 }
@@ -276,4 +273,30 @@ body > footer{
     text-align: center;
 }
 
+.left-interactions div:first-child{
+    scale: 50%;
+}
+
+.left-interactions div:first-child img{
+    height: 100%;
+}
+
+.left-interactions div:nth-child(2){
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 0;
+}
+
+.left-interactions div:nth-child(2) p{
+    width: 100%;
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #55585E;
+}
+
+.left-interactions div:nth-child(3) *{
+    line-height: 100px;
+    padding-left: 2px;
+    color: #55585E;
+}
 
