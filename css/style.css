@@ -269,12 +269,16 @@ body > footer{
 
 .middle-interactions > *{
     width: 100%;
-    line-height: 50px;
     text-align: center;
+    height: 50px;
 }
 
 .left-interactions div:first-child{
     scale: 50%;
+}
+
+.left-interactions h5{
+    color: white;
 }
 
 .left-interactions div:first-child img{
@@ -300,3 +304,70 @@ body > footer{
     color: #55585E;
 }
 
+.song-player a{
+    color: white;
+    margin: 0 10px;
+}
+
+.song-player{
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.track-progress{
+    height: 5px;
+    width: 100%;
+    background-color: #55585E;
+    align-self: center;
+    margin: 0 30px;
+    border-radius: 1em;
+    position: relative;
+    cursor: pointer;
+}
+
+.middle-interactions{
+    width: 400px;
+}
+
+.middle-interactions div:nth-child(2){
+    line-height: 50px;
+}
+
+.middle-interactions div:nth-child(2) p{
+    color: white;
+    font-size: 0.75em;
+}
+
+.track-progression-mark{
+    height: 5px;
+    width: 30%;
+    background-color: #C1C1C1;
+    border-radius: 1em;
+}
+
+.track-progression-sphere{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.track-progress:hover .track-progression-sphere{
+    display: block;
+}
+
+.right-interactions .track-progress{
+    width: 100px;
+    margin: 0 15px;
+}
+
+.right-interactions a{
+   color: white;
+   margin: 0 8px;
+}
