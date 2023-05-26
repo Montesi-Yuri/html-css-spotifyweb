@@ -26,4 +26,15 @@
         width: 70px; 
     }
 
+    .homepage{
+        width: calc(100% - 70px);
+        height: calc(100vh -100px);
+        top: 0;
+        left: 70px;
+    }
+
+    .side-nav-bar .container{
+        padding: 0 5px;
+    }
+
 }

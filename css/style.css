@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #141922;
 }
 
 li{
@@ -18,6 +19,11 @@ li{
 
 a{
     text-decoration: none;
+}
+
+img{
+    width: 100%;
+    display: block;
 }
 
 
@@ -35,19 +41,15 @@ a{
 **************************/
 
 main{
-    background-color: #141922;
-    height: calc(100vh - 100px);
-}
-
-.side-nav-bar{
-    background-color: black;
-    width: 200px;
     height: calc(100vh - 100px);
 }
 
 .homepage{
     width: calc(100% - 200px);
     height: calc(100vh -100px);
+    position: relative;
+    top: 0;
+    left: 200px;
 }
 
 .banner{
@@ -62,6 +64,15 @@ main{
 
 
 /* SIDE NAVIGATION BAR */
+
+.side-nav-bar{
+    background-color: black;
+    width: 200px;
+    height: calc(100vh - 100px);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 .side-nav-bar .row{
     flex-wrap: wrap;
@@ -89,8 +100,7 @@ main{
     color: white;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 2em;
-    padding: 12px 32px;
-    line-height: 4em;
+    padding: 12px 40px;
     list-style: none;
 }
 
@@ -98,16 +108,101 @@ main{
     text-align: end;
 }
 
+.banner a{
+    font-size: 0.75em;
+}
 
+.banner .button{
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+
+
+/* HOMEPAGE CONTENT */
+
+.homepage-content ul li{
+    display: inline-block;
+}
+
+.homepage-content ul{
+    text-align: center;
+}
+
+.song-card{
+    width: 180px;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.song-description{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.song-cover{
+    position: relative;
+}
+
+.song-card:hover{
+    filter:grayscale(0.6);
+    cursor: pointer;
+}
+
+.song-card:hover i{
+    display: block;
+}
+
+.song-cover i{
+    display: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    z-index: 1;
+    
+}
+
+.homepage-content h2{
+    color: white;
+}
+
+.cards-row{
+    flex-wrap: wrap;
+}
+
+.cards-row > h2{
+    width: 100%;
+}
+
+.homepage-content h5{
+    padding: 10px 0px;
+    color: #55585E;
+ }
+
+ .song-description h4{
+    color: white;
+    padding-top: 5px;
+ }
 
 
 /************************** 
     FOOTER
 **************************/
 
-.dashboard{
+body > footer{
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100vw;
     height: 100px;
+}
+
+.dashboard{
+    width: 100%;
+    height: 100%;
     background-color: #282828;
     justify-content: space-between;
 }

@@ -7,6 +7,16 @@ DEBUG
     border: 1px dashed red;
 }
 
+.debug .categories{
+    background-color: lightcyan;
+    border: 1px dashed red;
+}
+
+/* .debug .song-card{
+    background-color: lightcyan;
+    border: 1px dashed red;
+} */
+
 .debug .dashboard > div div{
     background-color: lightcyan;
     border: 1px dashed red;
