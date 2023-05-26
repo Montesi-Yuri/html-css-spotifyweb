@@ -46,10 +46,10 @@ main{
 
 .homepage{
     width: calc(100% - 200px);
-    height: calc(100vh -100px);
     position: relative;
     top: 0;
     left: 200px;
+    overflow: auto;
 }
 
 .banner{
@@ -129,6 +129,45 @@ main{
     text-align: center;
 }
 
+.categories{
+    margin: 10px 0px;
+}
+
+.categories li{
+    margin: 0px 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+    position: relative;
+}
+
+.categories li:hover a{
+    color: white;
+}
+
+.categories li a{
+    color: #55585E;
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 10px 5px;
+}
+
+.categories li::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 50%;
+    background-color: green;
+    transform: translate(-50%, -50%);
+}
+
+.categories li:hover li::after{
+    display: block;
+}
+
+
 .song-card{
     width: 180px;
     display: inline-block;
@@ -166,6 +205,10 @@ main{
 
 .homepage-content h2{
     color: white;
+}
+
+.cards-row h2:first-of-type{
+    margin-bottom: 15px;
 }
 
 .cards-row{
