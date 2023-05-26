@@ -205,6 +205,7 @@ main{
 
 .homepage-content h2{
     color: white;
+    margin-top: 10px;
 }
 
 .cards-row h2:first-of-type{
@@ -219,6 +220,10 @@ main{
     width: 100%;
 }
 
+.cards-row > h5{
+    width: 100%;
+}
+
 .homepage-content h5{
     padding: 10px 0px;
     color: #55585E;
@@ -229,6 +234,9 @@ main{
     padding-top: 5px;
  }
 
+ .artists img{
+    border-radius: 50%;
+ }
 
 /************************** 
     FOOTER
