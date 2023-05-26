@@ -93,6 +93,8 @@ main{
 
 
 
+
+
 /* BANNER */
 
 .button{
@@ -153,7 +155,7 @@ main{
 
 .categories li::after{
     content: "";
-    display: block;
+    display: none;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -163,7 +165,7 @@ main{
     transform: translate(-50%, -50%);
 }
 
-.categories li:hover li::after{
+.categories li:hover:after{
     display: block;
 }
 
@@ -200,7 +202,6 @@ main{
     left: 50%;
     transform: translate( -50%, -50%);
     z-index: 1;
-    
 }
 
 .homepage-content h2{
@@ -291,8 +292,9 @@ body > footer{
     margin: auto 0;
 }
 
-.left-interactions div:nth-child(2) p{
+.left-interactions div:nth-child(2) a{
     width: 100%;
+    display: block;
     font-size: 0.75em;
     font-weight: 600;
     color: #55585E;
@@ -358,10 +360,6 @@ body > footer{
     display: none;
 }
 
-.track-progress:hover .track-progression-sphere{
-    display: block;
-}
-
 .right-interactions .track-progress{
     width: 100px;
     margin: 0 15px;
@@ -370,4 +368,25 @@ body > footer{
 .right-interactions a{
    color: white;
    margin: 0 8px;
+}
+
+
+/* 
+HOVER
+ */
+
+ .dashboard i:hover{
+    color: white;
+}
+
+.song-player .fa-circle-play:hover{
+    font-size: 2em;
+}
+
+.track-progress:hover .track-progression-sphere{
+    display: block;
+}
+
+.left-interactions .row a:hover{
+    color: white;
 }
