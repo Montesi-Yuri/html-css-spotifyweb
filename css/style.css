@@ -74,19 +74,118 @@ main{
     left: 0;
 }
 
-.side-nav-bar .row{
-    flex-wrap: wrap;
-    height: 100%;
-    align-items: flex-start;
+#main-logo{
+    width: 75%;
+    margin: 20px 0px;
 }
 
-.side-nav-bar .row > *{
-    width: 100%;
+.side-nav-bar > .row{
+    flex-wrap: wrap;
+    position: relative;
+    height: 100%;
+}
+
+.side-nav-content{
+    height: calc(100% - 70px);
+    flex-direction: column;
 }
 
 .side-nav-bar footer{
-    align-self: flex-end;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0px;
 }
+
+.side-nav-bar footer span{
+    color: white;
+}
+
+.side-nav-bar footer a{
+    color:#55585E;
+}
+
+
+.side-nav-bar li{
+    color: #55585E;
+    cursor: pointer;
+    line-height: 2em;
+    font-size: 0.75em;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.side-nav-bar a span{
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.side-nav-bar a.row{
+    display: flex;
+    align-items: center;
+    color: #55585E;
+}
+
+.side-nav-bar h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.side-nav-bar li img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.playlists ul{
+    max-height: 100%;
+    overflow: auto;
+}
+
+.playlists{
+    flex-direction: column;
+    flex-grow: 1;
+    overflow:hidden;
+}
+
+.side-nav-bar footer hr{
+    margin: 10px 0px;
+}
+
+.side-nav-bar footer .container div:first-of-type{
+    color: #55585E;
+    font-weight: 700;
+    font-size: 0.75em;
+}
+
+.side-nav-bar footer .container div:first-of-type img{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.side-nav-bar footer .container div:nth-of-type(2){
+    color: white;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.side-nav-bar footer .container div:nth-of-type(2) img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+
 
 
 

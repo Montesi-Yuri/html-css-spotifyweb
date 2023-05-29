@@ -1,11 +1,16 @@
 /* 
 DEBUG
 */
-
-.debug .side-nav-bar .container *{
+/* 
+.debug .side-nav-bar footer *{
     background-color: lightcyan;
     border: 1px dashed red;
-}
+} */
+
+/* .debug .side-nav-bar footer {
+    background-color: lightcyan;
+    border: 1px dashed red;
+} */
 
 /* .debug .categories{
     background-color: lightcyan;
