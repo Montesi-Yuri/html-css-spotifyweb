@@ -1,28 +1,28 @@
 /* 
 DEBUG
 */
-/* 
+
 .debug .side-nav-bar footer *{
     background-color: lightcyan;
     border: 1px dashed red;
-} */
+} 
 
-/* .debug .side-nav-bar footer {
+.debug .side-nav-bar footer {
     background-color: lightcyan;
     border: 1px dashed red;
-} */
+} 
 
-/* .debug .categories{
+.debug .categories{
     background-color: lightcyan;
     border: 1px dashed red;
-} */
+}
 
-/* .debug .song-card{
+.debug .song-card{
     background-color: lightcyan;
     border: 1px dashed red;
-} */
+}
 
-/* .debug .dashboard > div div{
+.debug .dashboard > div div{ 
     background-color: lightgreen;
     border: 1px dashed red;
-} */
+}

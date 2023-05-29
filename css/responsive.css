@@ -2,39 +2,53 @@
     RESPONSIVE
 **************************/
 
-/* TABLET */
-
-@media  and (max-width:1100px) {
-    
-
-}
-
-
-/* MOBILE */
-
-@media  and (max-width:700px) {
-    
-
-}
-
-
 /* MOBILE S */
 
 @media screen and (max-width:600px) {
     
     .side-nav-bar{
-        width: 70px; 
+        width: 40px; 
     }
 
     .homepage{
-        width: calc(100% - 70px);
+        width: calc(100% - 40px);
         height: calc(100vh -100px);
         top: 0;
-        left: 70px;
+        left: 40px;
     }
 
     .side-nav-bar .container{
-        padding: 0 5px;
+        padding: 0 10px;
+    }
+
+    #main-logo{
+        display: none;
+    }
+
+    #mobile-logo{
+        display: block;
+    }
+
+    .side-nav-bar nav li a{
+        display: none;
+    }
+
+    .side-nav-bar .playlists{
+        display: none;
+    }
+
+    .side-nav-bar footer{
+        display: none;
+    }
+
+    .left-interactions div:last-child{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-interactions div:last-child a{
+        width: 100%;
+        line-height: normal;
     }
 
 }
